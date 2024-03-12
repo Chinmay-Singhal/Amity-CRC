@@ -53,7 +53,7 @@ CSS STRUCTURE:
   --gray-color:               #FDFDFC;
   --gray-color-300:           #F7F7F7;
   --gray-color-400:           #EFEFEF;
-  --gray-color-500:           #d1d1d1;
+  --gray-color-500:           #adabab;
   --gray-color-600:           #999999;
   --gray-color-800:           #3A3A3A;
   --light-gray-color:         #D7DDDF;
@@ -101,7 +101,7 @@ body {
   font-family: var(--body-font);
   font-size: 1.125rem;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.2; /* changed */
   margin: 0;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -122,7 +122,7 @@ h3{
 }
 h4{
   font-size: 1.75rem;
-  line-height: 127%;
+  line-height: 120%;
 }
 h5{
   font-size: 1.5rem;
@@ -839,3 +839,13 @@ h5.widget-title {
 .post-navigation:focus svg {
   fill: var(--primary-color);
 }
+
+.logo-container{
+  max-width: 65%;
+  max-height: 65%;
+}
+
+.key-res{
+  list-style-type: none;
+}
+
