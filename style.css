@@ -853,3 +853,7 @@ h5.widget-title {
   color : var(--light-color);
   text-shadow: 1px 1px 2px black, 0 0 25px rgb(52, 52, 53), 0 0 5px rgb(131, 131, 134);
 }
+
+.font-Title{
+  color : var(--dark-color);
+}
